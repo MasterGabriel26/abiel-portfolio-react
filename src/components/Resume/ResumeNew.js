@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Documento.pdf";
+import pdf from "../../Assets/../Assets/-CV-Gabriel-Gracia-Solis-English.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "https://github.com/MasterGabriel26/trabajo-31/blob/17dcf815e99d4d5591fcc18bf759b4c812e1d31d/Documento%201.pdf";
+// const resumeLink = "https://github.com/MasterGabriel26/UTT_PRUEBA_5BSM/blob/main/-CV-Gabriel-Gracia-Solis-English.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

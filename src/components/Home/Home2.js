@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/favicon.png";
+// import myImg from "../../Assets/favicon.png";
+import myImg from "../../Assets/Frame.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -25,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Javascript , PHP and Python. </b>
+                <b className="purple"> Java, JS, Laravel, Python, Kotlin, React. </b>
               </i>
               <br />
               <br />
@@ -49,7 +50,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and  React Native. </b>
+                <b className="purple"> React.js, Angular, Flutter. </b>
                 I consider myself still an apprentice. 
               </i>
               <i>
@@ -59,8 +60,8 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-              <h1>Goutln</h1>
+              <img src={myImg} className="img-fluid abielImg" alt="avatar" />
+              <h1>abiel</h1>
               <p>This is my personal brand</p>
             </Tilt>
           </Col>

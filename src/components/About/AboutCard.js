@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { ImArrowRight2 } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -18,23 +19,23 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImArrowRight2 /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Make music
+              <ImArrowRight2 /> Make music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Programming
+              <ImArrowRight2 /> Programming
             </li>
             <li className="about-activity">
-              <ImPointRight /> reading
+              <ImArrowRight2/> reading
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImArrowRight2 /> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "#ff0606" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Gabriel</footer>

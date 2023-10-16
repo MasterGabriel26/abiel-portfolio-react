@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #0a0b0e !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -714,13 +714,13 @@ button:focus {
   border: 2px solid #ff0202;
 }
 
-.like-item {
+/* .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
   font-family: sans-serif !important;
-}
+} */
 
-.like-btn {
+/* .like-btn {
   background-color: #36313a5e !important;
   border-color: #934cce5e !important;
   padding: 0.25rem 0.98rem !important;
@@ -733,7 +733,7 @@ button:focus {
   transform: translateY(-2px) !important;
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
-}
+} */
 
 .animate-like {
   animation-name: likeAnimation;
@@ -775,3 +775,10 @@ button:focus {
 nuevo
 
 ***/
+
+.abielImg{
+  border-radius: 100%;
+  opacity: 0.8;
+  width: 30vh;
+  margin-bottom: 10px;
+}

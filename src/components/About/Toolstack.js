@@ -12,6 +12,7 @@ import {
   SiXampp,
   SiInsomnia,
   SiIos,
+  SiXcode,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,7 +22,7 @@ function Toolstack() {
         <SiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIos />
+        <SiXcode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
